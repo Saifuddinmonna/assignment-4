@@ -9,7 +9,7 @@ function oilPrice(literDiesel, literPetrol,literOkten) {
         const totalOilPrice = dieselPrice + petrolPrice + octanePrice;
         return totalOilPrice
 }
-const totalOilPrice=oilPrice(3,2,2)
+const totalOilPrice=oilPrice(1,0,0)
 console.log(totalOilPrice);
         
 
