@@ -1,17 +1,16 @@
 // Problem-1
 
-*/*function radiansToDegree(radians) {
-	const pi = Math.PI;
-      
-        const radian = radians * (180 / pi);
-        return radian;
-}
-const radianTodegree = radian;
-console.log(radiansToDegree(5));*/*
+// 	// console.log("your put invalid input");
+// }
 
 function radiansToDegree(radians) {
-        const radianIs = radians * (180 / Math.PI);
-        return radianIs;
+       
+        const radianIs = Number.parseInt(radians * (180 / Math.PI));
+       
+	return radianIs; 
 }
-const radiansToDegree = radianIs;
+const radianIs = radiansToDegree;
 console.log(radiansToDegree(5));
+//  if (Number.isNaN(radians)) {
+// 		return "Number NaN";
+//  }
