@@ -34,7 +34,7 @@ function oilPrice(literDiesel, literPetrol, literOkten) {
 const totalOilPrice = oilPrice(3, 2, 2);
 console.log(totalOilPrice);
 
-// problem-5 
+// problem-4 
 function publicBusFare(i) {
         const a = i % 50;
         const b = a % 11;
@@ -45,4 +45,19 @@ function publicBusFare(i) {
 const c = publicBusFare;
 console.log(publicBusFare(210));
         
+// problem-5 
 
+function isBestFriend(object1,object2) {
+      
+		
+
+        if (object1.name == object2.friend && object1.friend == object2.name) {
+
+                return true;
+        }
+        else {
+                return false;
+        }
+        }
+        const myFriends = isBestFriend(   object1 = { name: "abul", friend: "babul" },
+        object2=  { name: "babul", friend: "abul" })
